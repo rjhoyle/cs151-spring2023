@@ -20,7 +20,7 @@ Discussions will be held using Piazza.  The enrollment link is on Blackboard.
 We are using an interactive zybook this semester. You can buy the book online, or buy a code for it at the book store. To get the book:
 
 1. Sign in or create an account at learn.zybooks.com
-1. Enter zyBook code: OBERLINCSCI151Spring2023
+1. Enter zyBook code: OBERLINCSCI151HoyleSpring2023
 1. Subscribe
 
 
