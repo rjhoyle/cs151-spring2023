@@ -20,7 +20,7 @@ permalink: /calendar/
 <tr class="even">
   <td id="cgWeek1" rowspan="3" class="cgWeek">1</td>
   <td class="cgDate">Jan 30</td>
-  <td>Consider bookmarking <a href="http://interactivepython.org/runestone/static/java4python/index.html">Java for Python Programmers</a> as a handy reference (<a href="Java4Python.pdf">PDF version</a>) <b>(Aug 28)</b></td>
+  <td>Consider bookmarking <a href="https://runestone.academy/ns/books/published/java4python/index.html">Java for Python Programmers</a> as a handy reference. </td>
   <td>Course Overview</td>
   <td rowspan="3"><a href="../content/lab0">Lab 0 - Intro to lab/Eclipse</a> </td>
 </tr>
