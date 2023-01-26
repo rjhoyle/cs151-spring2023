@@ -21,10 +21,9 @@
 title: CSCI 151 - Data Structures
 email: roberto.hoyle@oberlin.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Course syllabus for Systems Programming
+  Course syllabus for Data Structures
 baseurl: "/cs151-spring2023" # the subpath of your site, e.g. /blog
 url: "https://rjhoyle.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rjhoyle
 github_username:  rjhoyle
 
 # Build settings

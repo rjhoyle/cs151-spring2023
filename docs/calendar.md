@@ -22,13 +22,13 @@ permalink: /calendar/
   <td class="cgDate">Jan 30</td>
   <td>Consider bookmarking <a href="http://interactivepython.org/runestone/static/java4python/index.html">Java for Python Programmers</a> as a handy reference (<a href="Java4Python.pdf">PDF version</a>) <b>(Aug 28)</b></td>
   <td>Course Overview</td>
-  <td rowspan="3"><a href="lab00/index.html">Lab 0 - Intro to lab/Eclipse</a> </td>
+  <td rowspan="3"><a href="../content/lab0">Lab 0 - Intro to lab/Eclipse</a> </td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">Feb 01</td>
   <td rowspan="2" class="cgAnnc">&nbsp; <!-- 1 --></td>
-  <td>Introduction to Java 				<span class="reading">					<a href="https://www.youtube.com/watch?v=MeCw4yncc6E">Converting a Simple Program</a><br/>					<a href="https://www.youtube.com/watch?v=39AlhPqQBAw">Conditional Execution and User Input</a><br/>					<a href="https://www.youtube.com/watch?v=NX-amBPYijg">for Loops</a><br/>					(Optional) <a href="https://www.safaribooksonline.com/library/view/-/0596009208/?ar">HFJ Ch. 1</a>				</span>				</td>
+  <td>Introduction to Java 				<span class="reading">					<a href="https://www.youtube.com/watch?v=MeCw4yncc6E">Converting a Simple Program</a><br/>					<a href="https://www.youtube.com/watch?v=39AlhPqQBAw">Conditional Execution and User Input</a><br/>					<a href="https://www.youtube.com/watch?v=NX-amBPYijg">for Loops</a><br/>				</span>				</td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
@@ -43,7 +43,7 @@ permalink: /calendar/
   <td class="cgDate">Feb 06</td>
   <td class="cgAnnc">&nbsp; <!-- 2 --></td>
   <td>Introduction to Object Oriented Programming                <span class="reading">                    <a href="https://www.youtube.com/watch?v=OCPwzonFJLA">Primitives, Objects, and References</a><br/>                    <a href="https://www.youtube.com/watch?v=5s2NyypAbR0">Working with Strings</a><br/>                </span></td>
-  <td rowspan="3"><a href="lab01/prelab.html">Prelab 1</a><br><br><a href="lab01/index.html">Lab 1 - Playing with Java</a> </td>
+  <td rowspan="3"><a href="../content/lab1">Lab 1 - The First Cup of Java</a></td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
@@ -56,21 +56,21 @@ permalink: /calendar/
   <!-- SPANNED CELL -->
   <td class="cgDate">Feb 10</td>
   <td class="cgAnnc">&nbsp; <!-- 2 --></td>
-  <td rowspan="2">Generics                <br>                <span class="reading">		   <a href="https://www.youtube.com/watch?v=D5HEshszlPE">Introduction to Generics 1</a></br>		   <a href="https://www.youtube.com/watch?v=QBvy6eczC4I">Introduction to Generics 2: Declaration and Instantiation</a>                </span></td>
+  <td>Generics                <br>                <span class="reading">		   <a href="https://www.youtube.com/watch?v=D5HEshszlPE">Introduction to Generics 1</a><br/>                </span></td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <td id="cgWeek3" rowspan="3" class="cgWeek">3</td>
   <td class="cgDate">Feb 13</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 3 --></td>
-  <!-- SPANNED CELL -->
-  <td rowspan="3"><a href="lab02/prelab.html">Prelab 2</a><br><br><a href="lab02/index.html">Lab 2 - More Java</a> </td>
+  <td>Generics                <br>                <span class="reading">		   <a href="https://www.youtube.com/watch?v=QBvy6eczC4I">Introduction to Generics 2: Declaration and Instantiation</a>                </span></td>
+  <td rowspan="3">Lab 2 - More Java</td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">Feb 15</td>
   <!-- SPANNED CELL -->
-  <td>Java Collections                <br>                <span class="reading">                    (<b>Read Zyante 1.4, 1.5</b>)                </span></td>
+  <td>Java Collections                <br>                <span class="reading">                    (<b>Read Zyante Ch. 1</b>)                </span></td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
@@ -85,7 +85,7 @@ permalink: /calendar/
   <td class="cgDate">Feb 20</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 4 --></td>
   <td>Debugging and Test Driven Development</td>
-  <td rowspan="3"><a href="lab03/prelab.html">Prelab 3</a><br><br><a href="lab03/index.html">Lab 3 - MyArrayList</a> </td>
+  <td rowspan="3">Lab 3 - MyArrayList</td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
@@ -98,42 +98,42 @@ permalink: /calendar/
   <!-- SPANNED CELL -->
   <td class="cgDate">Feb 24</td>
   <!-- SPANNED CELL -->
-  <td rowspan="2"><b>Data Structure: </b>Linked Lists<br><span class="reading"><b>(Read Zyante 4.1-4.12) </b></span></td>
+  <td><b>Data Structure: </b>Linked Lists<br><span class="reading"><b>(Read Zyante 3.1-3.7) </b></span></td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <td id="cgWeek5" rowspan="3" class="cgWeek">5</td>
   <td class="cgDate">Feb 27</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 5 --></td>
-  <!-- SPANNED CELL -->
-  <td rowspan="3"><a href="lab04/prelab.html">Prelab 4</a><br><br><a href="lab04/index.html">Lab 4 - Maze Solver</a> </td>
+  <td><b>Data Structure: </b>Linked Lists<br><span class="reading"><b>(Read Zyante 3.7-3.14) </b></span></td>
+  <td rowspan="3">Lab 4 - Maze Solver</td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">Mar 01</td>
   <!-- SPANNED CELL -->
-  <td>Algorithm Analysis                <ul>                    <li>Big-Oh Notation</li>                    <li>Algorithm Growth</li>                    <li>Classes of algorithms</li>                </ul>                 <br><span class="reading"><b>(Read Zyante 3.1-3.3) </b></span>                </td>
+  <td>Algorithm Analysis                <ul>                    <li>Algorithm Efficiency</li>                    <li>Constant Time Operations</li>                    <li>Growth of Functions and Complexity</li>                </ul>                 <br><span class="reading"><b>(Read Zyante 4.1-4.3) </b></span>                </td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
   <td class="cgDate">Mar 03</td>
   <!-- SPANNED CELL -->
-  <td>Algorithm Analysis                <ul>                    <li>Big-Oh Notation</li>                    <li>Algorithm Growth</li>                    <li>Classes of algorithms</li>                </ul>                 <br><span class="reading"><b>(Read Zyante 3.4-3.6) </b></span>                                </td>
+  <td>Algorithm Analysis                <ul>                    <li>Big-Oh Notation</li>                    <li>Algorithm Analysis</li>                </ul>                 <br><span class="reading"><b>(Read Zyante 4.4-4.5) </b></span>                                </td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
   <td id="cgWeek6" rowspan="3" class="cgWeek">6</td>
   <td class="cgDate">Mar 06</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 6 --></td>
-  <td>Recursion                <ul>                      <li>Divide and Conquer</li>                     <li>TODO</li>                </ul>                <span class="reading"><b>(Read Zyante 5.1-5.2) </b></span>             </td>
-  <td rowspan="3"><a href="lab05/prelab.html">Prelab 5</a><br><br><a href="lab05/index.html">Lab 5 - LinkedLists and Runtime</a> </td>
+  <td>Recursion                <ul>                      <li>Recursive Algorithms</li>                     <li>Divide and Conquer</li>                </ul>                <span class="reading"><b>(Read Zyante 4.6, 5.1, 5.2) </b></span>             </td>
+  <td rowspan="6">Lab 5 - Linked Lists and Runtime</td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
   <td class="cgDate">Mar 08</td>
   <!-- SPANNED CELL -->
-  <td>Recursion                <ul>                 <li>TODO: Quicksort?</li>                </ul>                <span class="reading"><b>(Read Zyante 5.3) </b></span>                          </td>
+  <td>Recursion                <ul>                      <li>Dynamic Programming</li>                     <li>Greedy Algorithms</li>                </ul>                <span class="reading"><b>(Read Zyante 5.3-5.4) </b></span>                          </td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
@@ -146,20 +146,20 @@ permalink: /calendar/
 <tr class="even">
   <td id="cgWeek7" rowspan="3" class="cgWeek">7</td>
   <td class="cgDate" style="background-color: red;" align="center"><b><span style="color: white; ">Mar 13</span></b></td>
-  <td colspan="3" class="cgAnnc"  style="background-color: red;" align="center"><b><span style="color: white; ">Midterm Exam [<a href="exam1.txt">topics</a>]</span></b></td>
+  <td colspan="2" class="cgAnnc"  style="background-color: red;" align="center"><b><span style="color: white; ">Midterm Exam [<a href="exam1.txt">topics</a>]</span></b></td>
   <!-- SPANNED CELL -->
   <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
-  <td class="cgDate" style="background-color: blue;" align="center"><b><span style="color: white; ">Mar 15</span></b></td>
-  <td rowspan="2" colspan="3" class="cgAnnc"  style="background-color: blue;" align="center"><b><span style="color: white; ">RJH Travelling <br/><b>Guest lecturer TBA</b></span></b></td>
-  <!-- SPANNED CELL -->
+  <td class="cgDate">Mar 15</td>
+  <td rowspan="2" class="cgAnnc">&nbsp; <!-- 7 --></td>
+  <td rowspan="2">No Class (Mar 15-17)</td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
-  <td class="cgDate" style="background-color: blue;" align="center"><b><span style="color: white; ">Mar 17</span></b></td>
+  <td class="cgDate">Mar 17</td>
   <!-- SPANNED CELL -->
   <!-- SPANNED CELL -->
   <!-- SPANNED CELL -->
@@ -190,7 +190,7 @@ permalink: /calendar/
   <td class="cgDate">Mar 27</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 8 --></td>
   <td><b>Data Structure: </b>Trees<ul> <li>General</li> <li>BST</li> </ul><span class="reading"><b>(Read Zyante 6.1-6.5) </b></span></td>
-  <td rowspan="2">No lab this week, but <a href="lab06/prelab.html">Prelab 6</a> is due on Monday, March 18th</td>
+  <td rowspan="3">Lab 6 - Binary Tree Methods</td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
@@ -204,14 +204,14 @@ permalink: /calendar/
   <td class="cgDate">Mar 31</td>
   <!-- SPANNED CELL -->
   <td rowspan="2"><b>Data Structure: </b>Balanced Trees<ul>   <li>AVL</li> </ul><span class="reading"><b>(Read Zyante 7.1-7.4) </b></span></td>
-  <td rowspan="3"><a href="lab06/prelab.html">Prelab 6</a><br><br><a href="lab06/index.html">Lab 6 - Binary Tree Methods</a><br></td>
+  <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
   <td id="cgWeek9" rowspan="3" class="cgWeek">9</td>
   <td class="cgDate">Apr 03</td>
   <td class="cgAnnc" >Last Day for P/NP, CR/NE,<br>&nbsp;&nbsp;or Withdraw</td>
   <!-- SPANNED CELL -->
-  <!-- SPANNED CELL -->
+  <td rowspan="3">Lab 7 - Web Page Index</td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
@@ -225,14 +225,14 @@ permalink: /calendar/
   <td class="cgDate">Apr 07</td>
   <!-- SPANNED CELL -->
   <td><b>Data Structure: </b>Maps and Sets<br>                 <b>Data Structure: </b>Priority Queues                 <ul>                     <li>Heaps</li>                     <li>Array based heaps</li>                     <li>Heapsort</li>                 </ul><br>                 <span class="reading"><b>(Read Zyante 9.1-9.2) </b></span>             </td>
-  <td rowspan="3"><a href="lab07/prelab.html">Prelab 7</a><br><br><a href="lab07/index.html">Lab 7 - Web Page Index</a><br>(Search Engine Part 1)</td>
+  <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <td id="cgWeek10" rowspan="3" class="cgWeek">10</td>
   <td class="cgDate">Apr 10</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 10 --></td>
   <td><b>Data Structure: </b>Maps and Sets<br>                 <b>Data Structure: </b>Priority Queues                 <ul>                     <li>Heaps</li>                     <li>Array based heaps</li>                     <li>Heapsort</li>                 </ul><br>                 <span class="reading"><b>(Read Zyante 9.3-9.4) </b></span>             </td>
-  <!-- SPANNED CELL -->
+  <td rowspan="3">Lab 8 - Process Queries</td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
@@ -246,14 +246,14 @@ permalink: /calendar/
   <td class="cgDate">Apr 14</td>
   <!-- SPANNED CELL -->
   <td><b>Data Structure: </b>Hashtables<br><span class="reading"><b>(Read Zyante 10.4-10.6) </b></span></td>
-  <td rowspan="3"><a href="lab08/prelab.html">Prelab 8</a><br><br><a href="lab08/index.html">Lab 8 - Process Queries</a>(Search Engine Part 2)</td>
+  <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
   <td id="cgWeek11" rowspan="3" class="cgWeek">11</td>
   <td class="cgDate">Apr 17</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 11 --></td>
   <td><b>Data Structure: </b>Hashtables<br><span class="reading"><b>(Read Zyante 10.7-10.8) </b></span></td>
-  <!-- SPANNED CELL -->
+  <td rowspan="3">Lab 9 - Million Monkeys</td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
@@ -267,25 +267,25 @@ permalink: /calendar/
   <td class="cgDate">Apr 21</td>
   <!-- SPANNED CELL -->
   <!-- SPANNED CELL -->
-  <td rowspan="5"><a href="lab09/prelab.html">Prelab 9</a><br><br><a href="lab09/index.html">Lab 9 - Million Monkeys</a></td>
+  <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <td id="cgWeek12" rowspan="3" class="cgWeek">12</td>
   <td class="cgDate">Apr 24</td>
-  <td class="cgAnnc">&nbsp; <!-- 12 --></td>
+  <td rowspan="3" class="cgAnnc">&nbsp; <!-- 12 --></td>
   <td><b>Data Structure: </b>Graphs                     <ul>                        <li>Terminology</li>                        <li>Representation                        <ul>                            <li>Edge List</li>                            <li>Adjacency Matrix</li>                            <li>Adjacency List</li>                        </ul>                        </li>                    </ul>                    <br><span class="reading"><b>(Read Zyante 11.1-11.2)</b></span>             </td>
-  <!-- SPANNED CELL -->
+  <td rowspan="6">Lab 10 - Kevin Bacon Game</td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
-  <td class="cgDate" style="background-color: blue;" align="center"><b><span style="color: white; ">Apr 26</span></b></td>
-  <td rowspan="2" colspan="2" class="cgAnnc"  style="background-color: blue;" align="center"><b><span style="color: white; ">RJH Travelling <br/><b>Guest lecturer TBA</b></span></b></td>
+  <td class="cgDate">Apr 26</td>
   <!-- SPANNED CELL -->
+  <td rowspan="2">No Class (April 26-28)</td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
-  <td class="cgDate" style="background-color: blue;" align="center"><b><span style="color: white; ">Apr 28</span></b></td>
+  <td class="cgDate">Apr 28</td>
   <!-- SPANNED CELL -->
   <!-- SPANNED CELL -->
   <!-- SPANNED CELL -->
@@ -302,7 +302,7 @@ permalink: /calendar/
   <td class="cgDate">May 03</td>
   <!-- SPANNED CELL -->
   <td><b>Data Structure: </b>Graphs                  <ul>                     <li>Shortest Path - Unweighted BFS</li>                 </ul><br><span class="reading"><b>(Read Zyante 11.5-11.6)</b></span>             </td>
-  <td rowspan="3"><a href="lab10/prelab.html">Prelab 10</a><br><br><a href="lab10/index.html">Lab 10 - Boggle</a></td>
+  <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
@@ -316,20 +316,20 @@ permalink: /calendar/
   <td class="cgDate">May 08</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 14 --></td>
   <td>&nbsp;</td>
-  <!-- SPANNED CELL -->
+  <td class="cgAssn">&nbsp;</td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">May 10</td>
   <!-- SPANNED CELL -->
   <td>&nbsp;</td>
-  <td rowspan="2"><a href="lab11/prelab.html">Prelab 11</a><br><br><a href="lab11/index.html">Lab 11 - Kevin Bacon Game</a></td>
+  <td class="cgAssn">&nbsp;</td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
   <td class="cgDate">May 12</td>
   <!-- SPANNED CELL -->
   <td>&nbsp;</td>
-  <!-- SPANNED CELL -->
+  <td class="cgAssn">&nbsp;</td>
 </tr>
 </table>
