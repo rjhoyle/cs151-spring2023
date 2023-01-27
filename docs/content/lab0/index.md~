@@ -1,0 +1,482 @@
+# Lab 0 -- Warming You Up
+
+* Lab 1 Home
+* [Warmup](warmup.html)
+* [Part 1](part1.html)
+* [Part 2](part2.html)
+* [Part 3](part3.html)
+* [Submission](submission.html)
+
+Due 10:00pm Sunday, February 5, or ASAP for late enrolees.
+
+
+## Assignment Description
+
+<p>
+This lab is intended to be a bit of a review of the things that you've done in
+CS 150 and to introduce you to some new tools.
+At the end of this lab you should be able to:
+</p>
+
+* Get yourself into the labs after hours without climbing through the windows,
+* Log in to the lab machines,
+* Use eclipse and some of its bells n' whistles,
+* Remember some of the stuff you learned in 150.
+
+
+<p class="boxed notice">
+    <strong>NOTE:</strong> This lab exists outside of the usual late deadlines.
+    You should be sure to do Part 6 on time (fill out the Google form), but if you
+    run into problems you can get help with the rest of it during the lab times
+    next week without expending one of your late days.
+</p>
+
+<hr>
+<h2>Part 1 - Getting started</h2>
+<h3>Lab access, computer accounts</h3>
+<p>
+    If you weren't registered for a CS class at the start of the semester, you
+    will need to go and see <a href="mailto:Jackie.Fortino@oberlin.edu">Jackie Fortino</a>
+    in King 223 about getting building access for
+    the semester.  You should do this now, before you forget!
+</p>
+
+<p>
+    If you don't have a CS account and didn't sign up on the list during
+    the first day of class, see <a href="mailto:chris.mohler@oberlin.edu">Chris Mohler</a>
+    in the OCTET office (King 125) about getting one.
+</p>
+
+<p>
+    Go to one of the CS computer labs and log in to a computer.  The labs are in
+    King 201 and King 135.  You should have gotten the door code from your CS
+    professor on the first day of class.
+    For the most part we will use room 201 unless the class becomes too large.
+</p>
+
+<h3>Create a directory for this course and lab</h3>
+<p>
+    Once you have logged in, make yourself a directory to put your class work in.
+    Using a Terminal application:
+</p>
+<pre class="boxed">
+% <span class="typed">cd</span>
+% <span class="typed">mkdir cs151</span>
+% <span class="typed">cd cs151</span>
+% <span class="typed">mkdir lab0</span>
+% <span class="typed">cd lab0</span>
+</pre>
+<p>
+    You should do this for each lab, not only because it organizes your files,
+    but also because it causes less problems with handin. And you don't want any
+    problems with handin.
+</p>
+
+<hr>
+<h2>Part 2 - Eclipse</h2>
+<p>
+    Now you should start <a href="http://www.eclipse.org/">Eclipse</a>.   This
+    is a Java IDE (Integrated Development Environment) that is used world-wide.
+    It has a number of very useful features including automatic compilation,
+    error detection, built-in debugger, autocomplete, and many other features.
+</p>
+
+<p>
+    Eclipse is available for free for your home machine, should you want some
+    alone-time with it. Just go to the 
+    <a href="http://www.eclipse.org/">Eclipse website</a> for download.
+</p>
+
+<h3>Start eclipse</h3>
+<p>
+    Just run it from the command line.
+</p>
+<pre class="boxed">
+% <span class="typed">eclipse &amp;</span>
+</pre>
+
+<p>Alternatively, choose it from the graphical Development menu.</p>
+<p>
+    <strong>You should just accept the default for workspace.  (Usually <tt>~/workspace/</tt>) <em>Please do not select your csci151 folder as your default workspace.</em></strong>  It'll take a bit to start up.
+</p>
+
+<h3>Do tutorial</h3>
+<p>
+    From the Eclipse Welcome page, click <b>Tutorials&nbsp;&gt;&nbsp;Create a
+    Hello World Application</b>. Follow the instructions to make your very
+    first eclipse Java program. Good times. 
+    <!-- 
+    When you're done with that, go back
+    to the Welcome page, then click <b>Overview&nbsp;&gt;&nbsp;Workshop
+    Basics</b>. Peruse some of these topics to familiarize yourself with some
+    of eclipse's features.
+    -->
+</p>
+
+<!-- 
+<p>
+    You should also read through this 
+    <a href="http://www.comscigate.com/cs/valle/programming.htm">Eclipse Tutorial 3: Useful Programming Functions</a> (<a href="http://web.archive.org/web/20100930183113/http://www.javaprogrammingworld.com/eclipse-tutorial-part-3-useful-programming-functions/">cached</a>)
+    and this
+    <a href="http://www.javaprogrammingworld.com/eclipse-tutorial-part-5-running-and-debugging/">Eclipse Tutorial 5: Running and Debugging</a> (<a href="http://web.archive.org/web/20101006180206/http://www.javaprogrammingworld.com/eclipse-tutorial-part-5-running-and-debugging/">cache</a>). You'll be glad you did.
+</p>
+-->
+
+<h3>Customize Eclipse preferences</h3>
+<p>
+    Until you get more familiar with eclipse and figure things out on your own,
+    please make the following changes to your preferences to make life easier.
+    Start by selecting the menu <b>Window &nbsp; &gt; &nbsp; Preferences</b> (On a Mac, it is located in <b>Eclipse &nbsp; &gt; &nbsp; Preferences</b>. 
+</p>
+
+<h4>Set preferences</h4>
+<p>
+First, let's deal with auto-completion and cursors.
+   <!-- Start by selecting the menu <b>Window &nbsp;>&nbsp; Preferences</b>.  --> 
+    Click on the triangles in
+    front of <b>"Java"</b>, <b>"Editor"</b> and click on <b>"Typing"</b>.
+</p>
+
+<p>
+    Notice that it will automatically insert closing braces, quotes, and the
+    like by default.  I recommend that you keep these enabled.  It will take
+    a little getting used to, but prevents annoying little bugs.
+</p>
+
+<p>
+    The second section "automatically insert at correct
+    position" has things that I really like to enable.  When you type either
+    <tt>;</tt> or a brace, it'll jump to the right spot for it most of the
+    time.  It's pretty nifty, try it out!
+</p>
+
+<h4>Fixing output to be more sane</h4>
+<p>
+    By default, Eclipse uses tabs for indentation.  However, it displays them
+    as being only 4 spaces, when most other things will display them as 8.  A
+    minor detail, but changing this will make things much more readable outside
+    of Eclipse.  The easiest way is to change the preferences <b>"Java"</b>,
+    <b>"Code Style"</b>, <b>"Formatter"</b> and then select <b>"Java
+    conventions"</b> as the Active profile.
+    <strong style="color: red;">If you change only one setting, make it this one!</strong>
+</p>
+<p class="centered">
+<a href="code-formatter.jpg"><img src="code-formatter.jpg" alt="Code Style settings screen"></a>
+</p>
+
+<p>
+    You can also get Eclipse to reformat your code when you are working on it in a number of ways.
+    You can highlight a section of text and then hit "ctrl-I" or use the menu "Source", "Correct Indentation".  You can also use the "Source", "Format" command to make similar changes.
+    You can also have it automatically reformat your code each time you save.  Go to <b>"Java"</b>, <b>"Editor"</b>, <b>"Save Actions"</b> and check the box marked "Perform the selected actions on save".  You can have just reformat the sections of code you have been working on, or you can have it take care of the entire file.
+</p>
+
+<h4>Javadoc</h4>
+<p>
+    If you take advantage of the auto-Javadoc comments, you'll probably want to
+    also change the settings under <b>"Java"</b>, <b>"Code style"</b>, <b>"Code
+    Templates"</b>, <b>"Comments"</b>, <b>"Overriding methods"</b> to match
+    <b>"methods"</b>.  
+    (Just copy and paste the <b>Pattern</b> window contents from "Methods" to
+    "Overriding methods".)
+</p>
+
+<h4>Change the default build path</h4>
+<p>
+    In recent versions, Eclipse likes to put the *.class files in a different
+    folder than your *.java files.  However, this makes things a bit harder to
+    go between eclipse and a normal editor.  Change the preferences by selecting
+    <b>"Java"</b> and <b>"Build Path"</b> and change the value of <b>'source and
+        output folder'</b> radio button to be <b>"Project"</b> instead of <b>"Folder"</b>.
+        Do not change the value of Source folder from <b>src</b> or Output
+        folder from <b>bin</b> -- this is the radio button only.
+    <strong style="color: red;">If you change only two settings, do this one too!</strong>
+</p>
+<p class="centered">
+<a href="build-path.jpg"><img src="build-path.jpg" alt="Build Path settings screen"></a>
+</p>
+
+<h4>do some editing</h4>
+<p>
+    While you are working on stuff, you'll probably find that there are lots of
+    functions you might want to use via the pull down menus.  Note that the
+    keyboard shortcuts are listed on the right hand side.  Learning to use them
+    will speed up your work.
+</p>
+
+<p>
+    As a reference guide for some such shortcuts and nifty things, I'll refer you back to the 
+    <a href="http://www.comscigate.com/cs/valle/programming.htm">eclipse tutorial</a>, and this list here:
+</p>
+
+<ul class="padded boxed">
+    Note the smart insertion of things like '<tt>;</tt>'
+    Quick fix using <tt>ctrl-1</tt> (thats a one)
+    Rename all instances of a variable in one fell swoop using <b>Refactor &nbsp; > &nbsp; Rename</b>
+    Add/remove comments (<tt>ctrl-/</tt>)
+    Use <tt>ctrl-space</tt> to autocomplete names of classes and methods.  Try typing "sysout" and then <tt>ctrl-space</tt>
+    Create a new class from interfaces or from a superclass using  the appropriate textboxes under <b>File &nbsp; > &nbsp; New &nbsp; > &nbsp; Class</b> 
+    Debug in style with breakpoints, variable examination, watchpoints (see
+    <a href="http://www.comscigate.com/cs/valle/running.htm">this tutorial</a> to learn more.)
+ 
+    Set arguments for a command line <b>Run &nbsp;>&nbsp; Run configurations...</b>
+    Generate getter and setter methods using <b>Source &nbsp;>&nbsp; Generate Getters and Setters</b>
+    Generate constructors using <b>Source &nbsp;>&nbsp; Generate Constructor using Fields</b>
+    Maximize the current area, or unmaximize using <tt>ctrl-m</tt>.
+    Display line numbers by right-clicking on the left margin of the editor and selecting that setting
+</ul>
+
+<hr>
+<h2>Part 3 - Doing "real work" in Eclipse</h2>
+<h3>Create project</h3>
+<p>
+    Now we should create a project in our lab0 folder like you'll be doing in
+    many of the labs.
+</p>
+
+<ol class="padded">
+    Select <b>"File"&nbsp;&gt;&nbsp;"New"&nbsp;&gt;&nbsp;"Java Project"</b>
+    Call it <b>"Hello 151"</b> (or "lab0" or whatever you want)
+    <strong>uncheck</strong> the box for <b>"use default location"</b>
+    Use the <b>"Browse"</b> button to select the <tt>lab0</tt> folder you created earlier
+    Now just select <b>"Finish"</b>
+</ol>
+
+<p>
+    If you want, you can close the <b>Task List</b> and <b>Outline</b> panes on
+    the right side.  We won't be using them for this.
+</p>
+
+<p>
+    Now let's create a class that will tell the user a little bit about yourself.
+</p>
+
+<ol class="padded">
+    Select <b>"File"&nbsp;&gt;&nbsp;"New"&nbsp;&gt;&nbsp;"Class"</b>
+    <!-- Be sure the source folder is your lab0 folder --> 
+    Don't change the project or source folder
+    Set the <b>Name</b> of class to be <tt>Hello151</tt> 
+    Check the box that will create the <tt>main</tt> method stub
+    Now select <b>"Finish"</b>
+</ol>
+
+
+
+<p>
+    You should now see <b>Hello151.java</b> in the Package Explorer window.  If
+    you do an <tt>ls</tt> on the command line in your lab0 folder, you'll see that there is both
+    <tt>Hello151.java</tt> and <tt>Hello151.class</tt> in this folder.  Eclipse 
+    compiles as you work!
+</p>
+
+<h3>Comments!</h3>
+<p>
+    The <tt>Hello151.java</tt> file should be open in the editor.  If not, just
+    double click on it in the Package Explorer window.  Let's add some comments
+    to the top of the file.
+</p>
+
+<ol class="padded">
+    Go to the top of the file and start a Javadoc comment.  Recall they begin with <tt>/**</tt> 
+    Put in a short description of what this file is supposed to do.  In this case, you are going to introduce yourself to the graders.
+    On another line, but still in the comment block, start a line with <tt>@author</tt> followed by your name
+    Close the comment block with a <tt>*/</tt>. It is likely that eclipse has already done this for you.
+</ol>
+
+<h3>Run your program</h3>
+<p>
+    Just in case you've not actually tried to run your program, now would be a great time to check that it works.  Here's a line you can add to the main method that will give you some output
+</p>
+<pre class="code prettyprint lang-java padded">
+    System.out.println("When I graduate, I will donate 10% of my salary to the CS department.");
+</pre>
+<p>
+    You can run it in Eclipse by just selecting <b>"Run"</b>, <b>"Run"</b> from the pull-down menus. Or right-click and select <b>"Run As"</b>, <b>"Java Application"</b>.
+</p>
+
+<p>
+    If you want to try running your program from the command line then you should
+</p>
+<ol>
+    Go to a Terminal window
+    Type "cd ~/cs151/lab0" (this takes you to your lab0 folder -- '~' is a shortcut for your home folder)
+    Run the program by typing <span class="typed">java Hello151</span>
+</ol>
+
+<p>
+    Note that if that didn't work, and you see that you have <tt>bin</tt> and <tt>src</tt> folders in your 151/lab0 folder, you missed one of the important steps above.
+</p>
+
+<h3>Share with the graders</h3>
+<p>
+    Now let's add some print statements to introduce yourself to the graders.
+    Inside the <tt>main()</tt> method, add in a number of
+    <tt>System.out.println</tt> messages that will share:
+</p>
+
+<ol class="padded">
+    Your name as you want to be called
+    Your CS username
+    Your year/major (if known)
+    Something you think is awesome about Oberlin
+</ol>
+
+<h3>Get on with your life</h3>
+<p>
+If you've made it this far, and actually changed preferences and done the steps
+I listed above, that's enough Java programming for this week.
+</p>
+
+
+<hr>
+<h2>Part 4 - Lab tools</h2>
+<h3>Running Java</h3>
+<p>
+    For this class, we'll be exercising more than the usual amount of memory in
+    Java programs.  You will become familiar with the <tt>-X</tt> family of
+    arguments to use with Java.
+</p>
+
+<pre class="boxed">
+% <span class="typed">java -Xmx1g MyProg</span>     # use up to 1 gigabyte of memory
+% <span class="typed">java -Xmx500m MyProg</span>   # use up to 500 megabytes of memory
+</pre>
+
+<p>
+    Last semester this wasn't needed on lab machines, but was on your own laptops.
+</p>
+
+<h3>Snapshots</h3>
+<p>
+The CS server will be making periodic backups of your files for you.  You can
+access these backups in the folder<br><br>
+<tt>    ~/.zfs/snapshot/</tt><br><br>
+This is an exact copy of your files at the time the snapshot was made.  It'll
+be useful if you accidentally delete something in lab.  Currently only the
+daily snapshots are working (taken at midnight each night), but hopefully we'll
+have some that are more frequent as the semester progresses.
+</p>
+
+<h3>handin / lshand</h3>
+<p>
+<tt>handin</tt> is the right way to submit your work in this class.  If you
+talk to other students, they might tell you about a web based version of
+handin.
+<strong>Please don't use this as it is unsupported and has resulted in
+    more than one student submission being discarded last semester.
+    <em>Run away from the fish!</em></strong>
+</p>
+
+<p>
+    I'll probably give you instructions on how to use handin as shown below as
+    part of your instructions each week, but I suspect you've got the hang of it
+    by now if this is your second CS class.
+</p>
+
+<p>
+    Also, always use <tt>lshand</tt> to verify that your submission was
+    received.  If it does not show you your latest submission, then we don't
+    have it.
+</p>
+
+<p>
+    Should handin be broken at the deadline, email us ASAP and stop editing
+    stuff in your lab directory (or email the files in lieu of a submission).
+</p>
+
+<hr>
+<h2>Part 5 - Clicker</h2>
+<p>
+  We will be using iClickers for class participation.  If you have not
+  previously registered your iclicker, you need to go to the Blackboard page for this class and register your clicker.  Do so, and bring it to class on Monday.
+</p>
+
+<hr>
+<h2>Part 6 - Google Form</h2>
+<p>
+    Now that you're familiar with the lab, I'd like you to share some info with
+    me.  Please fill
+    out <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0Vj4wci3Mdivbf7qXJ2eL-qNSLlbBSIcWF97lVojqyEorvg/viewform?usp=sf_link">this
+    google form</a>.  This will also be used to assign your discussion group.
+</p>
+
+
+
+<h3>Be sure to get grade reports</h3>
+<p>
+    You should also add a rule into your OCMail so that mail from the grader doesn't go into your Spam folder.  (This seems to happen randomly throughout the semester.)
+</p>
+<ol class="padded">
+    Go to <a href="http://ocmail.oberlin.edu/">http://ocmail.oberlin.edu/</a> and log in to your Oberlin email.
+    Do a search for <b><span class="typed"><tt>from:gr151@cs.oberlin.edu</tt></span></b>
+    After you've searched, on the right side of the search box, you should hit the gray downward facing triangle, and then select "Create filter with this search" in the bottom right.
+    Check the box for the line "Never send it to Spam"
+    Click on "Create Filter" in the blue button below, and you should be all set.
+</ol>
+
+<hr>
+<h2>Part 7 - Piazza</h2>
+
+Enroll in the <a href="https://piazza.com/class/jrgtjuv23ms5ul">Piazza</a> forums that we will be using for classroom discussion.  Questions about the lectures or labs should be posted here.  We will be monitoring them and answering questions as we see them.  You can post anonymously to other students, if you prefer.
+
+At this point, post a message introducing yourself.  Include a picture, hobbies, year, etc.  Basically, let us know you a bit better.  Why are you taking this class?  What are you hoping to get out of it?  Do you have cute pictures of your pets?
+
+
+<hr style="clear: both;">
+<h2>handin</h2>
+<p>
+Look through your source files and be sure you've included you name at the top
+of all of them.
+If there are any known problems or incomplete features, document that also at
+the top of the file.
+If you adhered to the honor code in this assignment, add the following
+statement as a comment at the top of your main java file.
+</p>
+<blockquote class="honor">
+<p class="centered">
+<q class="honor">I have adhered to the Honor Code in this assignment.</q>
+</p>
+</blockquote>
+
+<h3>handin</h3>
+<p>
+    You now just need to electronically handin all your files.  Quit Eclipse
+    and delete the class files.  (Otherwise those will be handed in as well!)
+</p>
+
+<pre class="boxed">
+% <span class="typed">cd</span>          # changes to your home directory
+% <span class="typed">cd cs151</span>    # goes to your cs151 folder
+% <span class="typed">handin</span>      # starts the handin program
+                        # class is <span class="typed">151</span>
+                        # assignment is <span class="typed">0</span>
+                        # file/directory is <span class="typed">lab0</span>
+
+% <span class="typed">lshand</span>      # should show that you've handed in something
+</pre>
+
+<p>
+    You can also specify the options to handin from the command line
+</p>
+
+<pre class="boxed">
+% <span class="typed">cd ~/cs151</span>                 # goes to your cs151 folder
+% <span class="typed">handin -c 151 -a 0 lab0</span>
+</pre>
+
+<p>
+    That's it! You've completed your zeroeth lab. Be sure to logout when you
+    are done (icon is to the left of the terminal and globe icons).
+</p>
+
+<div class="boxed">
+<h3>Checklist</h3>
+<p>
+    Be sure that you have
+</p>
+<ol>
+    Accepted the default workspace
+    Changed settings to use "Java Conventions"
+    Changed the settings for "Build Path"
+    Added the filter for your OCMail account
+</ol>
+</div>

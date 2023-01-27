@@ -1,0 +1,259 @@
+* Lab 0 Home
+* [Warmup](warmup.html)
+* [Part 1](part1.html)
+* [Part 2](part2.html)
+* [Part 3](part3.html)
+* [Submission](submission.html)
+
+## Part 3 - Doing "real work" in Eclipse
+<h3>Create project</h3>
+<p>
+    Now we should create a project in our lab0 folder like you'll be doing in
+    many of the labs.
+</p>
+
+<ol class="padded">
+* Select <b>"File"&nbsp;&gt;&nbsp;"New"&nbsp;&gt;&nbsp;"Java Project"</b>
+* Call it <b>"Hello 151"</b> (or "lab0" or whatever you want)
+* <strong>uncheck</strong> the box for <b>"use default location"</b>
+* Use the <b>"Browse"</b> button to select the <tt>lab0</tt> folder you created earlier
+* Now just select <b>"Finish"</b>
+</ol>
+
+<p>
+    If you want, you can close the <b>Task List</b> and <b>Outline</b> panes on
+    the right side.  We won't be using them for this.
+</p>
+
+<p>
+    Now let's create a class that will tell the user a little bit about yourself.
+</p>
+
+<ol class="padded">
+    Select <b>"File"&nbsp;&gt;&nbsp;"New"&nbsp;&gt;&nbsp;"Class"</b>
+    <!-- Be sure the source folder is your lab0 folder --> 
+    Don't change the project or source folder
+    Set the <b>Name</b> of class to be <tt>Hello151</tt> 
+    Check the box that will create the <tt>main</tt> method stub
+    Now select <b>"Finish"</b>
+</ol>
+
+
+
+<p>
+    You should now see <b>Hello151.java</b> in the Package Explorer window.  If
+    you do an <tt>ls</tt> on the command line in your lab0 folder, you'll see that there is both
+    <tt>Hello151.java</tt> and <tt>Hello151.class</tt> in this folder.  Eclipse 
+    compiles as you work!
+</p>
+
+<h3>Comments!</h3>
+<p>
+    The <tt>Hello151.java</tt> file should be open in the editor.  If not, just
+    double click on it in the Package Explorer window.  Let's add some comments
+    to the top of the file.
+</p>
+
+<ol class="padded">
+    Go to the top of the file and start a Javadoc comment.  Recall they begin with <tt>/**</tt> 
+    Put in a short description of what this file is supposed to do.  In this case, you are going to introduce yourself to the graders.
+    On another line, but still in the comment block, start a line with <tt>@author</tt> followed by your name
+    Close the comment block with a <tt>*/</tt>. It is likely that eclipse has already done this for you.
+</ol>
+
+<h3>Run your program</h3>
+<p>
+    Just in case you've not actually tried to run your program, now would be a great time to check that it works.  Here's a line you can add to the main method that will give you some output
+</p>
+<pre class="code prettyprint lang-java padded">
+    System.out.println("When I graduate, I will donate 10% of my salary to the CS department.");
+</pre>
+<p>
+    You can run it in Eclipse by just selecting <b>"Run"</b>, <b>"Run"</b> from the pull-down menus. Or right-click and select <b>"Run As"</b>, <b>"Java Application"</b>.
+</p>
+
+<p>
+    If you want to try running your program from the command line then you should
+</p>
+<ol>
+    Go to a Terminal window
+    Type "cd ~/cs151/lab0" (this takes you to your lab0 folder -- '~' is a shortcut for your home folder)
+    Run the program by typing <span class="typed">java Hello151</span>
+</ol>
+
+<p>
+    Note that if that didn't work, and you see that you have <tt>bin</tt> and <tt>src</tt> folders in your 151/lab0 folder, you missed one of the important steps above.
+</p>
+
+<h3>Share with the graders</h3>
+<p>
+    Now let's add some print statements to introduce yourself to the graders.
+    Inside the <tt>main()</tt> method, add in a number of
+    <tt>System.out.println</tt> messages that will share:
+</p>
+
+* Your name as you want to be called
+* Your CS username
+* Your year/major (if known)
+* Something you think is awesome about Oberlin
+
+<h3>Get on with your life</h3>
+<p>
+If you've made it this far, and actually changed preferences and done the steps
+I listed above, that's enough Java programming for this week.
+</p>
+
+
+<hr>
+<h2>Part 4 - Lab tools</h2>
+<h3>Running Java</h3>
+<p>
+    For this class, we'll be exercising more than the usual amount of memory in
+    Java programs.  You will become familiar with the <tt>-X</tt> family of
+    arguments to use with Java.
+</p>
+
+<pre class="boxed">
+% <span class="typed">java -Xmx1g MyProg</span>     # use up to 1 gigabyte of memory
+% <span class="typed">java -Xmx500m MyProg</span>   # use up to 500 megabytes of memory
+</pre>
+
+<p>
+    Last semester this wasn't needed on lab machines, but was on your own laptops.
+</p>
+
+<h3>Snapshots</h3>
+<p>
+The CS server will be making periodic backups of your files for you.  You can
+access these backups in the folder<br><br>
+<tt>    ~/.zfs/snapshot/</tt><br><br>
+This is an exact copy of your files at the time the snapshot was made.  It'll
+be useful if you accidentally delete something in lab.  Currently only the
+daily snapshots are working (taken at midnight each night), but hopefully we'll
+have some that are more frequent as the semester progresses.
+</p>
+
+<h3>handin / lshand</h3>
+<p>
+<tt>handin</tt> is the right way to submit your work in this class.  If you
+talk to other students, they might tell you about a web based version of
+handin.
+<strong>Please don't use this as it is unsupported and has resulted in
+    more than one student submission being discarded last semester.
+    <em>Run away from the fish!</em></strong>
+</p>
+
+<p>
+    I'll probably give you instructions on how to use handin as shown below as
+    part of your instructions each week, but I suspect you've got the hang of it
+    by now if this is your second CS class.
+</p>
+
+<p>
+    Also, always use <tt>lshand</tt> to verify that your submission was
+    received.  If it does not show you your latest submission, then we don't
+    have it.
+</p>
+
+<p>
+    Should handin be broken at the deadline, email us ASAP and stop editing
+    stuff in your lab directory (or email the files in lieu of a submission).
+</p>
+
+<hr>
+<h2>Part 5 - Clicker</h2>
+<p>
+  We will be using iClickers for class participation.  If you have not
+  previously registered your iclicker, you need to go to the Blackboard page for this class and register your clicker.  Do so, and bring it to class on Monday.
+</p>
+
+<hr>
+<h2>Part 6 - Google Form</h2>
+<p>
+    Now that you're familiar with the lab, I'd like you to share some info with
+    me.  Please fill
+    out <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0Vj4wci3Mdivbf7qXJ2eL-qNSLlbBSIcWF97lVojqyEorvg/viewform?usp=sf_link">this
+    google form</a>.  This will also be used to assign your discussion group.
+</p>
+
+
+
+<h3>Be sure to get grade reports</h3>
+<p>
+    You should also add a rule into your OCMail so that mail from the grader doesn't go into your Spam folder.  (This seems to happen randomly throughout the semester.)
+</p>
+<ol class="padded">
+    Go to <a href="http://ocmail.oberlin.edu/">http://ocmail.oberlin.edu/</a> and log in to your Oberlin email.
+    Do a search for <b><span class="typed"><tt>from:gr151@cs.oberlin.edu</tt></span></b>
+    After you've searched, on the right side of the search box, you should hit the gray downward facing triangle, and then select "Create filter with this search" in the bottom right.
+    Check the box for the line "Never send it to Spam"
+    Click on "Create Filter" in the blue button below, and you should be all set.
+</ol>
+
+<hr>
+<h2>Part 7 - Piazza</h2>
+
+Enroll in the <a href="https://piazza.com/class/jrgtjuv23ms5ul">Piazza</a> forums that we will be using for classroom discussion.  Questions about the lectures or labs should be posted here.  We will be monitoring them and answering questions as we see them.  You can post anonymously to other students, if you prefer.
+
+At this point, post a message introducing yourself.  Include a picture, hobbies, year, etc.  Basically, let us know you a bit better.  Why are you taking this class?  What are you hoping to get out of it?  Do you have cute pictures of your pets?
+
+
+<hr style="clear: both;">
+<h2>handin</h2>
+<p>
+Look through your source files and be sure you've included you name at the top
+of all of them.
+If there are any known problems or incomplete features, document that also at
+the top of the file.
+If you adhered to the honor code in this assignment, add the following
+statement as a comment at the top of your main java file.
+</p>
+<blockquote class="honor">
+<p class="centered">
+<q class="honor">I have adhered to the Honor Code in this assignment.</q>
+</p>
+</blockquote>
+
+<h3>handin</h3>
+<p>
+    You now just need to electronically handin all your files.  Quit Eclipse
+    and delete the class files.  (Otherwise those will be handed in as well!)
+</p>
+
+<pre class="boxed">
+% <span class="typed">cd</span>          # changes to your home directory
+% <span class="typed">cd cs151</span>    # goes to your cs151 folder
+% <span class="typed">handin</span>      # starts the handin program
+                        # class is <span class="typed">151</span>
+                        # assignment is <span class="typed">0</span>
+                        # file/directory is <span class="typed">lab0</span>
+
+% <span class="typed">lshand</span>      # should show that you've handed in something
+</pre>
+
+<p>
+    You can also specify the options to handin from the command line
+</p>
+
+<pre class="boxed">
+% <span class="typed">cd ~/cs151</span>                 # goes to your cs151 folder
+% <span class="typed">handin -c 151 -a 0 lab0</span>
+</pre>
+
+<p>
+    That's it! You've completed your zeroeth lab. Be sure to logout when you
+    are done (icon is to the left of the terminal and globe icons).
+</p>
+
+<div class="boxed">
+<h3>Checklist</h3>
+<p>
+    Be sure that you have
+</p>
+<ol>
+    Accepted the default workspace
+    Changed settings to use "Java Conventions"
+    Changed the settings for "Build Path"
+    Added the filter for your OCMail account
+</ol>
+</div>

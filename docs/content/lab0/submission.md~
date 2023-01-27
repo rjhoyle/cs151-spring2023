@@ -1,0 +1,43 @@
+<h3>handin</h3>
+<p>
+    You now just need to electronically handin all your files.  Quit Eclipse
+    and delete the class files.  (Otherwise those will be handed in as well!)
+</p>
+
+<pre class="boxed">
+% <span class="typed">cd</span>          # changes to your home directory
+% <span class="typed">cd cs151</span>    # goes to your cs151 folder
+% <span class="typed">handin</span>      # starts the handin program
+                        # class is <span class="typed">151</span>
+                        # assignment is <span class="typed">0</span>
+                        # file/directory is <span class="typed">lab0</span>
+
+% <span class="typed">lshand</span>      # should show that you've handed in something
+</pre>
+
+<p>
+    You can also specify the options to handin from the command line
+</p>
+
+<pre class="boxed">
+% <span class="typed">cd ~/cs151</span>                 # goes to your cs151 folder
+% <span class="typed">handin -c 151 -a 0 lab0</span>
+</pre>
+
+<p>
+    That's it! You've completed your zeroeth lab. Be sure to logout when you
+    are done (icon is to the left of the terminal and globe icons).
+</p>
+
+<div class="boxed">
+<h3>Checklist</h3>
+<p>
+    Be sure that you have
+</p>
+<ol>
+    Accepted the default workspace
+    Changed settings to use "Java Conventions"
+    Changed the settings for "Build Path"
+    Added the filter for your OCMail account
+</ol>
+</div>
