@@ -26,7 +26,7 @@ At the end of this lab you should be able to:
 
 <p class="boxed notice">
     <strong>NOTE:</strong> This lab exists outside of the usual late deadlines.
-    You should be sure to do Part 6 on time (fill out the Google form), but if you
+    You should be sure to do the "warmup" on time (fill out the Google form), but if you
     run into problems you can get help with the rest of it during the lab times
     next week without expending one of your late days.
 </p>

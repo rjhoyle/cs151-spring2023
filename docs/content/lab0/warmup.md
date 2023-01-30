@@ -17,7 +17,7 @@
     the semester.  You should do this now, before you forget!
 </p>
 
-If you don't have an OCCS account and weren't signed up for the first day of class email [support@oberlin.edu](mailto:support@oberlin.edu) and ask them for an OCCS account.  You will need this to use the Linux environment on the lab machines.  You do not need one if you just want to use your own machine or use the Windows environment.  If you pursue Computer Science, you will definitely need an account for CSCI 241, so you might as well get one now and start playing with Linux.
+If you don't have an OCCS account and weren't signed up for the first day of class email [support@oberlin.edu](mailto:support@oberlin.edu) and ask them for an OCCS account.  You will need this to use the Linux environment on the lab machines.  You do not need one if you just want to use your own machine.  If you pursue Computer Science, you will definitely need an account for CSCI 241, so you might as well get one now and start playing with Linux.
 
 <p>
     Go to one of the CS computer labs and log in to a computer.  The labs are in

@@ -16,15 +16,9 @@ This needs repeating.  The Windows machines will not save your files.  Whenever 
 
 You are responsible for managing your files and making sure that nobody else copies your work.  Forgetting to delete a file will not be accepted as an excuse absolving you if someone copies your homework.
 
-We suggest using an external USB dongle and saving your files to this dongle, and making sure you take the dongle with you.
-
-The main advantage of Windows is that you don't need to deal with Linux and the command line.  It is also more familiar to many of you.
-
-To start using Eclipse on Windows, just hit the "Windows" key on the keyboard and type ``eclipse`` in the search bar.  The Eclipse IDE should start up.
-
 ### Linux
 
-To use Linux, we need to fire up a virtual machine (VM) on the lab computers.  There is an icon on your desktop called "VirtualBox" that you can use to launch the VM application.  Once that is launched, you can start the Linux virtual machine.
+For this class, we will skip the Windows environment entirely and use a Linux virtual machine.  To use Linux, we need to fire up the virtual machine (VM) on the lab computers.  There is an icon on your desktop called "VirtualBox" that you can use to launch the VM application.  Once that is launched, you can start the Linux virtual machine.
 
 You will need to log in with an Oberlin College Computer Science (OCCS) account.  This is not your regular Oberlin College account, so you may not yet have one.  There will be assistance during the first lab session to get you set up if you do not currently have an account.  If you missed the first lab session, send email to support@oberlin.edu and ask for an OCCS account.
 
@@ -32,21 +26,6 @@ One huge reason for using Linux instead of Windows is that your files are stored
 
 In adition, if you continue in Computer Science, you will be using Linux and Unix frequently, so getting more familiarity with the environment is good.
 
-<p>
-    Once you have logged in, make yourself a directory to put your class work in.
-    Using a Terminal application:
-</p>
-<pre class="boxed">
-% <span class="typed">cd</span>
-% <span class="typed">mkdir cs151</span>
-% <span class="typed">cd cs151</span>
-% <span class="typed">mkdir lab0</span>
-% <span class="typed">cd lab0</span>
-</pre>
-<p>
-    You should do this for each lab, not only because it organizes your files,
-    but also because it causes less problems with handin. And you don't want any
-    problems with handin.
-</p>
+The nice thing about modern Linux environments is that they have a graphical user interface that is as good as that used in other systems.  You'll be able to manipulate files, create directories, and compress directories into .zip archives just as you can on a regular desktop.  For this class, we suggest creating a CS151 director, and then inside it, creating a Lab0 directory.
 
 [&laquo; Previous](warmup.html)   [Next &raquo;](part2.html)

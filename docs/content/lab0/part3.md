@@ -65,18 +65,6 @@
     You can run it in Eclipse by just selecting <b>"Run"</b>, <b>"Run"</b> from the pull-down menus. Or right-click and select <b>"Run As"</b>, <b>"Java Application"</b>.
 </p>
 
-<p>
-    If you are running in the Linux environment and want to try running your program from the command line then you should
-</p>
-
-* Go to a Terminal window
-* Type "cd ~/cs151/lab0" (this takes you to your lab0 folder -- '~' is a shortcut for your home folder)
-* Run the program by typing <span class="typed">java Hello151</span>
-
-<p>
-    Note that if that didn't work, and you see that you have <tt>bin</tt> and <tt>src</tt> folders in your 151/lab0 folder, you missed one of the important steps above.
-</p>
-
 <h3>Share with the graders</h3>
 <p>
     Now let's add some print statements to introduce yourself to the graders.

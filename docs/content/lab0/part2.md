@@ -23,10 +23,10 @@
 
 <h3>Start eclipse</h3>
 <p>
-    Just run it from the command line.
+    Just run it from the command line.  Open up a terminal window and type:
 </p>
 <pre class="boxed">
-% <span class="typed">eclipse &amp;</span>
+<span class="typed">eclipse &amp;</span>
 </pre>
 
 <p>Alternatively, choose it from the graphical Development menu.</p>
