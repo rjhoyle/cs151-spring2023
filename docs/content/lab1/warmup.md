@@ -194,4 +194,8 @@ spaces between words. At the end of each line, print a new line via
 System.out.println();
 ```
 
+### Submission
+
+Please add what you found during your warmup to a file called README which will be part of your submission
+
 [&laquo; Previous](index.html)   [Next &raquo;](part1.html)

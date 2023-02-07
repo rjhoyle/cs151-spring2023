@@ -33,7 +33,7 @@ course evaluation score.  Since this is a real dataset, it contains a bunch of
 information we’re not interested in: we will be looking only at the values in
 columns 3 and 5.
 
-Your program will take in the name of a file from the command line, and then
+Your program will take in the name of a file from the command line arguments, which can be specified via the Run Configurations dialog, and then
 loop through every line of the file, and calculate the average course
 evaluation scores for both summer and regular courses.   
 

@@ -21,6 +21,7 @@ object that will let you generate random numbers.
 You then can use `rnd.nextInt(1000)` to get you a number between 0 and 999.
 Just add 1 to get it into the right range.
 ```java
+import java.util.Random;
 Random rnd = new Random();
 int target = rnd.nextInt(1000) + 1;
 ```
