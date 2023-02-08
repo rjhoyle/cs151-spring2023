@@ -9,7 +9,7 @@ layout: default
 **Lectures:** | MWF, 11:00AM -- 11:50AM, Somewhere in Oberlin College...
 **Instructor:** | Roberto Hoyle (roberto.hoyle@oberlin.edu)
 **Office:** | King 223C
-**Office Hours:** | 
+**Office Hours:** | Wednesday/Thursday 2-4pm
 **Phone:** | x58424
 
 
