@@ -64,7 +64,7 @@ permalink: /calendar/
   <td class="cgDate">Feb 13</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 3 --></td>
   <td>Generics                <br>                <span class="reading">		   <a href="https://www.youtube.com/watch?v=QBvy6eczC4I">Introduction to Generics 2: Declaration and Instantiation</a>                </span></td>
-  <td rowspan="3">Lab 2 - More Java</td>
+  <td rowspan="3"><a href="../content/lab2">Lab 2 - More Java</a></td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
