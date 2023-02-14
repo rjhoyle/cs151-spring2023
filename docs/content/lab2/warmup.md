@@ -57,6 +57,8 @@ shouldn't do that. Fortunately, as we saw last lab, we can get the length of
 an array `foo` by using `foo.length`. Go ahead and change the bound of the
 `for` loop to be `i < arr.length` and rerun your code. Much better!
 
+One thing that you should note is the difference between our use of `size` and `length`.  We are using `length` to mean the capacity of the array; it is how many items the array can hold.  `size`, in our usage, is how many items are currently in the array.  Whenever you add or remove items from the set, you will need to add or subtract from size.  When `size == length`, our array is full and we will not be able to add more items.
+
 Let's try reading some `int`s from the user and storing them in an array.
 Recall from last lab that we can use a `Scanner` to read `int`s using the
 `nextInt()` method. We can read from the input by creating a new scanner and
@@ -189,7 +191,7 @@ With your partner, implement the rest of the methods. Here are a few hints.
 2. For `remove()`, use a `for` loop to check if `e` is in the array. If so,
    remove it by moving elements from later in the array one spot earlier.
 3. For `toArray()`, create a new array of `Object`s of size `this.size`. Fill
-   the array by copying all `this.size` elements into the new array and return
+   the array by copying all `this.data` elements from the current array into the new array and return
    it.
 
 Finally, let's write some code to test this out. Create a new class `Main`

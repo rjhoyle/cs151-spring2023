@@ -20,7 +20,7 @@ Quit Eclipse, and then delete the `bin` and `numbers` directories.
 (If you don't quit Eclipse first, it will keep regenerating your class
 files when it autocompiles!)
 
-Include the Warmup files that you generated previously in your Lab 1 folder.
+Include the Warmup files that you generated previously in your Lab 2 folder.
 
 Zip the `Lab2` directory and turn it in via Blackboard.
 
