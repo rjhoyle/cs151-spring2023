@@ -85,7 +85,7 @@ permalink: /calendar/
   <td class="cgDate">Feb 20</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 4 --></td>
   <td>Debugging and Test Driven Development</td>
-  <td rowspan="3">Lab 3 - MyArrayList</td>
+  <td rowspan="3"><a href="../content/lab3">Lab 3 - MyArrayList</a></td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
