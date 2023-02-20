@@ -1,6 +1,6 @@
 # Lab 2 -- More Java Fun
 
-* [Lab 1 Home](index.html)
+* [Lab 2 Home](index.html)
 * [Warmup](warmup.html)
 * [Part 2](part1.html)
 * Part 2
