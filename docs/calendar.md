@@ -106,7 +106,7 @@ permalink: /calendar/
   <td class="cgDate">Feb 27</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 5 --></td>
   <td><b>Data Structure: </b>Linked Lists<br><span class="reading"><b>(Read Zyante 3.7-3.14) </b></span></td>
-  <td rowspan="3">Lab 4 - Maze Solver</td>
+  <td rowspan="3"><a href="../content/lab4">Lab 4 - Maze Solver</a></td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
