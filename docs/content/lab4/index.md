@@ -1,5 +1,13 @@
 # Lab 4 -- Stacks and Queues: Simply A-Maze-ing!
-Due 10:00pm, Sunday, March 10
+
+* Lab 4 Home
+* [Warmup](warmup.html)
+* [Part 1](part1.html)
+* [Part 2](part2.html)
+* [Part 3](part3.html)
+* [Submission](submission.html)
+
+Due 10:00pm, Sunday, March 5th 2023
 
 In this lab you will use the power of a stack and a queue to explore and find
 your way through a maze. After this lab you should be able to:
@@ -34,3 +42,5 @@ You will need to create the following files:
 - `MazeSolverQueue.java`
 
 I've supplied starting code, including some sample mazes [here](Lab4.zip).
+
+[Next &raquo;](warmup.html)
