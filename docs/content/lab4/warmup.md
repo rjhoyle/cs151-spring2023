@@ -310,7 +310,7 @@ from a node to the previous node in the list. We _could_ do that, but we'd
 need to maintain two links. You'll do that next week!
 
 Fortunately, as long as we call `removeFirst()` if the list only has a single
-node, we don't need to make any changes to `removeLast()`.
+node, we don't need to make any changes to `removeLast()`, other than updating the tail pointer.
 
 Test your code out again. It should all be working still.
 

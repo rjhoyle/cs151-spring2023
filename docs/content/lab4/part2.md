@@ -2,7 +2,7 @@
 
 * [Lab 4 Home](index.html)
 * [Warmup](warmup.html)
-* [Part 2](part1.html)
+* [Part 1](part1.html)
 * Part 2
 * [Part 3](part3.html)
 * [Submission](submission.html)
@@ -115,7 +115,7 @@ Thus, you will create an abstract class `MazeSolver` that will implement the abo
   an arrow (the `previous` variable) in it that points back to the square from
   which you added it to the worklist. Now, when you are at the exit, you can
   just follow the arrows back to the start.  Of course, following the arrows
-  gives you the path in reverse orderz; you will need to reverse them when you
+  gives you the path in reverse orders; you will need to reverse them when you
   add them to the `ArrayList`.
 {: .implement-box}
 
