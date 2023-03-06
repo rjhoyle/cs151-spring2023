@@ -127,7 +127,7 @@ permalink: /calendar/
   <td class="cgDate">Mar 06</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 6 --></td>
   <td>Recursion                <ul>                      <li>Recursive Algorithms</li>                     <li>Divide and Conquer</li>                </ul>                <span class="reading"><b>(Read Zyante 4.6, 5.1, 5.2) </b></span>             </td>
-  <td rowspan="6">Lab 5 - Linked Lists and Runtime</td>
+  <td rowspan="6"><a href="../content/lab5">Lab 5 - Linked Lists and Runtime</a></td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
