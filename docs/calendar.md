@@ -210,7 +210,7 @@ permalink: /calendar/
   <td class="cgDate">Apr 03</td>
   <td class="cgAnnc" >Last Day for P/NP, CR/NE,<br>&nbsp;&nbsp;or Withdraw</td>
   <td><b>Data Structure: </b>Balanced Trees<ul>   <li>AVL</li> </ul><span class="reading"><b>(Read Zyante 7.3-7.4) </b></span></td>
-  <td rowspan="3">Lab 6 - Binary Tree Methods</td>
+  <td rowspan="3"><a href="../content/lab6">Lab 6 - Binary Tree Methods</a></td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
@@ -231,7 +231,7 @@ permalink: /calendar/
   <td class="cgDate">Apr 10</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 10 --></td>
   <td><b>Data Structure: </b>Maps and Sets<br>                 <b>Data Structure: </b>Priority Queues                 <ul>                     <li>Heaps</li>                     <li>Array based heaps</li>                     <li>Heapsort</li>                 </ul><br>                 <span class="reading"><b>(Read Zyante 9.3-9.4) </b></span>             </td>
-  <td rowspan="3">Lab 7 - Web Page Index</td>
+  <td rowspan="3"><a href="../content/lab7">Lab 7 - Web Page Index</td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
@@ -252,7 +252,7 @@ permalink: /calendar/
   <td class="cgDate">Apr 17</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 11 --></td>
   <td><b>Data Structure: </b>Hashtables<br><span class="reading"><b>(Read Zyante 10.7-10.8) </b></span></td>
-  <td rowspan="3">Lab 8 - Process Queries</td>
+  <td rowspan="3"><a href="../content/lab8">Lab 8 - Process Queries</td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
@@ -273,7 +273,7 @@ permalink: /calendar/
   <td class="cgDate">Apr 24</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 12 --></td>
   <td><b>Data Structure: </b>Graphs                     <ul>                        <li>Terminology</li>                        <li>Representation                        <ul>                            <li>Edge List</li>                            <li>Adjacency Matrix</li>                            <li>Adjacency List</li>                        </ul>                        </li>                    </ul>                    <br><span class="reading"><b>(Read Zyante 11.1-11.2)</b></span>             </td>
-  <td rowspan="3">Lab 9 - Million Monkeys</td>
+  <td rowspan="3"><a href="../content/lab9">Lab 9 - Million Monkeys</td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
@@ -294,7 +294,7 @@ permalink: /calendar/
   <td class="cgDate">May 01</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 13 --></td>
   <td><b>Data Structure: </b>Graphs                     <ul>                        <li>Terminology</li>                        <li>Representation                        <ul>                            <li>Edge List</li>                            <li>Adjacency Matrix</li>                            <li>Adjacency List</li>                        </ul>                        </li>                    </ul>                    <br><span class="reading"><b>(Read Zyante 11.3-11.4 )</b></span>             </td>
-  <td rowspan="6">Lab 10 - Kevin Bacon Game</td>
+  <td rowspan="6"><a href="../content/lab10">Lab 10 - Kevin Bacon Game</td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
