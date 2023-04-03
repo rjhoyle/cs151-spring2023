@@ -131,7 +131,7 @@ The order of the operations for a preorder traversal is:
 * Visit the current node
 * Traverse the right subtree
 
-The resulting inorder traversal for this tree is DEBAFCG.
+The resulting inorder traversal for this tree is DBEAFCG.
 
 
 ### Postorder
