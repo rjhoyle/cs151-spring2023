@@ -23,6 +23,8 @@ We provide you with the following files, which you will *not* need to change:
 - `TreeDisplay.java`
 - `BinaryTree.java`
 
+These files are included in [this zip file](lab6.zip)
+
 And the following files, which you will need to modify:
 - `ConsTree.java`
 - `EmptyTree.java`
