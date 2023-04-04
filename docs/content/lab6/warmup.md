@@ -155,18 +155,4 @@ The resulting postorder traversal for this tree is DEBFGCA.
 H  I   J   K    L   M  N   O
 ```
 
-Consider the mathematical expression `(3 + 5) * (1 + 3) - 2`.
-
-Create a binary tree out of this expression, assuming that the expression is
-an *inorder* traversal of a tree, with the parentheses being used just for
-grouping purposes and not needing to be included in a tree. The _leaves_ of
-the tree will be numbers and the interior nodes of the tree are the
-mathematical operations. Ask your lab professor to do an example.
-
-Write out the *preorder* and *postorder* traversals. The preorder traversal
-corresponds to [Polish
-notation](https://en.wikipedia.org/wiki/Polish_notation) whereas the postorder
-traversal corresponds to the more well-known [reverse Polish
-notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation).
-
 [&laquo; Previous](index.html)   [Next &raquo;](part1.html)
