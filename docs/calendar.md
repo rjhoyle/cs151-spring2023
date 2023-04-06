@@ -216,77 +216,77 @@ permalink: /calendar/
   <!-- SPANNED CELL -->
   <td class="cgDate">Apr 05</td>
   <td rowspan="2" class="cgAnnc">&nbsp; <!-- 9 --></td>
-  <td><b>Data Structure: </b>Maps and Sets<br>                 <span class="reading"><b>(Read Zyante 8.1-8.3) </b></span>             </td>
+  <td rowspan="2"><b>Data Structure: </b>Balanced Trees<ul>   <li>AVL</li> <li>Red-Black</li> <li>2-3-4 Trees</li></ul><span class="reading"><b>(Read Zyante 7.4-7.6) </b></span></td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">Apr 07</td>
   <!-- SPANNED CELL -->
-  <td><b>Data Structure: </b>Maps and Sets<br>                 <b>Data Structure: </b>Priority Queues                 <ul>                     <li>Heaps</li>                     <li>Array based heaps</li>                     <li>Heapsort</li>                 </ul><br>                 <span class="reading"><b>(Read Zyante 9.1-9.2) </b></span>             </td>
+  <!-- SPANNED CELL -->
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <td id="cgWeek10" rowspan="3" class="cgWeek">10</td>
   <td class="cgDate">Apr 10</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 10 --></td>
-  <td><b>Data Structure: </b>Maps and Sets<br>                 <b>Data Structure: </b>Priority Queues                 <ul>                     <li>Heaps</li>                     <li>Array based heaps</li>                     <li>Heapsort</li>                 </ul><br>                 <span class="reading"><b>(Read Zyante 9.3-9.4) </b></span>             </td>
-  <td rowspan="3"><a href="../content/lab7">Lab 7 - Web Page Index</td>
+  <td><b>Data Structure: </b>Maps and Sets<br>                 <span class="reading"><b>(Read Zyante 8.1-8.3) </b></span>             </td>
+  <td rowspan="3"><a href="../content/lab7">Lab 7 - Web Page Index</a></td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">Apr 12</td>
   <!-- SPANNED CELL -->
-  <td><b>Data Structure: </b>Hashtables<br><span class="reading"><b>(Read Zyante 10.1-10.3) </b></span></td>
+  <td><b>Data Structure: </b>Maps and Sets<br>                 <b>Data Structure: </b>Priority Queues                 <ul>                     <li>Heaps</li>                     <li>Array based heaps</li>                     <li>Heapsort</li>                 </ul><br>                 <span class="reading"><b>(Read Zyante 9.1-9.2) </b></span>             </td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
   <td class="cgDate">Apr 14</td>
   <!-- SPANNED CELL -->
-  <td><b>Data Structure: </b>Hashtables<br><span class="reading"><b>(Read Zyante 10.4-10.6) </b></span></td>
+  <td><b>Data Structure: </b>Maps and Sets<br>                 <b>Data Structure: </b>Priority Queues                 <ul>                     <li>Heaps</li>                     <li>Array based heaps</li>                     <li>Heapsort</li>                 </ul><br>                 <span class="reading"><b>(Read Zyante 9.3-9.4) </b></span>             </td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
   <td id="cgWeek11" rowspan="3" class="cgWeek">11</td>
   <td class="cgDate">Apr 17</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 11 --></td>
-  <td><b>Data Structure: </b>Hashtables<br><span class="reading"><b>(Read Zyante 10.7-10.8) </b></span></td>
-  <td rowspan="3"><a href="../content/lab8">Lab 8 - Process Queries</td>
+  <td><b>Data Structure: </b>Hashtables<br><span class="reading"><b>(Read Zyante 10.1-10.3) </b></span></td>
+  <td rowspan="3"><a href="../content/lab8">Lab 8 - Process Queries</a></td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
   <td class="cgDate">Apr 19</td>
   <!-- SPANNED CELL -->
-  <td rowspan="2"><b>Data Structure: </b>Tries</td>
+  <td><b>Data Structure: </b>Hashtables<br><span class="reading"><b>(Read Zyante 10.4-10.6) </b></span></td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">Apr 21</td>
   <!-- SPANNED CELL -->
-  <!-- SPANNED CELL -->
+  <td><b>Data Structure: </b>Hashtables<br><span class="reading"><b>(Read Zyante 10.7-10.8) </b></span></td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <td id="cgWeek12" rowspan="3" class="cgWeek">12</td>
   <td class="cgDate">Apr 24</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 12 --></td>
-  <td><b>Data Structure: </b>Graphs                     <ul>                        <li>Terminology</li>                        <li>Representation                        <ul>                            <li>Edge List</li>                            <li>Adjacency Matrix</li>                            <li>Adjacency List</li>                        </ul>                        </li>                    </ul>                    <br><span class="reading"><b>(Read Zyante 11.1-11.2)</b></span>             </td>
-  <td rowspan="3"><a href="../content/lab9">Lab 9 - Million Monkeys</td>
+  <td rowspan="2"><b>Data Structure: </b>Tries</td>
+  <td rowspan="3"><a href="../content/lab9">Lab 9 - Million Monkeys</a></td>
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">Apr 26</td>
   <!-- SPANNED CELL -->
-  <td rowspan="2">No Class (April 26-28)</td>
+  <!-- SPANNED CELL -->
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
   <td class="cgDate">Apr 28</td>
   <!-- SPANNED CELL -->
-  <!-- SPANNED CELL -->
+  <td><b>Data Structure: </b>Graphs                     <ul>                        <li>Terminology</li>                        <li>Representation                        <ul>                            <li>Edge List</li>                            <li>Adjacency Matrix</li>                            <li>Adjacency List</li>                        </ul>                        </li>                    </ul>                    <br><span class="reading"><b>(Read Zyante 11.1-11.2)</b></span>             </td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
@@ -294,7 +294,7 @@ permalink: /calendar/
   <td class="cgDate">May 01</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 13 --></td>
   <td><b>Data Structure: </b>Graphs                     <ul>                        <li>Terminology</li>                        <li>Representation                        <ul>                            <li>Edge List</li>                            <li>Adjacency Matrix</li>                            <li>Adjacency List</li>                        </ul>                        </li>                    </ul>                    <br><span class="reading"><b>(Read Zyante 11.3-11.4 )</b></span>             </td>
-  <td rowspan="6"><a href="../content/lab10">Lab 10 - Kevin Bacon Game</td>
+  <td rowspan="6"><a href="../content/lab10">Lab 10 - Kevin Bacon Game</a></td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
@@ -307,29 +307,28 @@ permalink: /calendar/
   <!-- SPANNED CELL -->
   <td class="cgDate">May 05</td>
   <!-- SPANNED CELL -->
-  <td>Review and class wrapup</td>
+  <td><b>Algorithm:</b> Insertion and Selection Sort<br>                 <b>Algorithm:</b> Linear &amp; Binary Search<br>                <span class="reading"><b>(Read Zyante 13.1-13.4) </b></span>            </td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <td id="cgWeek14" rowspan="3" class="cgWeek">14</td>
   <td class="cgDate">May 08</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 14 --></td>
-  <td>&nbsp;</td>
+  <td rowspan="2">More Sorting Algorithms                 <ul>                     <li>HeapSort</li>                    <li>MergeSort</li>                    <li>Quick</li>                 </ul>                <br><span class="reading"><b>(Read Zyante 14.1-14.3) </b></span>            </td>
   <!-- SPANNED CELL -->
 </tr>
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">May 10</td>
   <!-- SPANNED CELL -->
-  <td>&nbsp;</td>
+  <!-- SPANNED CELL -->
   <!-- SPANNED CELL -->
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
   <td class="cgDate">May 12</td>
   <!-- SPANNED CELL -->
-  <td>&nbsp;</td>
+  <td>Review and class wrapup</td>
   <!-- SPANNED CELL -->
 </tr>
 </table>
-
