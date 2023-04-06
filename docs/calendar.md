@@ -294,7 +294,7 @@ permalink: /calendar/
   <td class="cgDate">May 01</td>
   <td rowspan="3" class="cgAnnc">&nbsp; <!-- 13 --></td>
   <td><b>Data Structure: </b>Graphs                     <ul>                        <li>Terminology</li>                        <li>Representation                        <ul>                            <li>Edge List</li>                            <li>Adjacency Matrix</li>                            <li>Adjacency List</li>                        </ul>                        </li>                    </ul>                    <br><span class="reading"><b>(Read Zyante 11.3-11.4 )</b></span>             </td>
-  <td rowspan="6"><a href="../content/lab10">Lab 10 - Kevin Bacon Game</a></td>
+  <td rowspan="3"><a href="../content/lab10">Lab 10 - Kevin Bacon Game</a></td>
 </tr>
 <tr class="even">
   <!-- SPANNED CELL -->
@@ -306,27 +306,6 @@ permalink: /calendar/
 <tr class="odd">
   <!-- SPANNED CELL -->
   <td class="cgDate">May 05</td>
-  <!-- SPANNED CELL -->
-  <td><b>Algorithm:</b> Insertion and Selection Sort<br>                 <b>Algorithm:</b> Linear &amp; Binary Search<br>                <span class="reading"><b>(Read Zyante 13.1-13.4) </b></span>            </td>
-  <!-- SPANNED CELL -->
-</tr>
-<tr class="even">
-  <td id="cgWeek14" rowspan="3" class="cgWeek">14</td>
-  <td class="cgDate">May 08</td>
-  <td rowspan="3" class="cgAnnc">&nbsp; <!-- 14 --></td>
-  <td rowspan="2">More Sorting Algorithms                 <ul>                     <li>HeapSort</li>                    <li>MergeSort</li>                    <li>Quick</li>                 </ul>                <br><span class="reading"><b>(Read Zyante 14.1-14.3) </b></span>            </td>
-  <!-- SPANNED CELL -->
-</tr>
-<tr class="odd">
-  <!-- SPANNED CELL -->
-  <td class="cgDate">May 10</td>
-  <!-- SPANNED CELL -->
-  <!-- SPANNED CELL -->
-  <!-- SPANNED CELL -->
-</tr>
-<tr class="even">
-  <!-- SPANNED CELL -->
-  <td class="cgDate">May 12</td>
   <!-- SPANNED CELL -->
   <td>Review and class wrapup</td>
   <!-- SPANNED CELL -->
