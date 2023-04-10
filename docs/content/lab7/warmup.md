@@ -67,7 +67,7 @@ Another way of looking at AVL trees is to instead of performing rotations, we wi
 
 The process is:
 
-1. Walking up the tree from the insertion point to the root, label first node that fails height balance property as Z.
+1. Walking up the tree from the insertion point of the new node to the root, label the first node that fails the height balance property as Z.
 1. Z's tallest subtree is labeled Y
 1. Y's tallest subtree is labeled X
 1. Set A, B, and C to be the in-order listing of X, Y, and Z. That is, you should have A<B<C.
@@ -115,18 +115,20 @@ As an example, a file that contains CS classes, their names, and instructors, co
 To parse this data, we are going to use two Scanner objects.  The first scanner will read from the input file and export a **line** of data.  The second scanner object will read from the output of the first scanner (a line of data) and split it into data points.
 
 
-	Scanner input = new Scanner(new File(path), "UTF-8");
+```
+Scanner input = new Scanner(new File(path), "UTF-8");
 	
-	while ( input.hasNextLine() ) {   / keep looping for each line, use 'break' to exit
+while ( input.hasNextLine() ) {   / keep looping for each line, use 'break' to exit
 
-		String line = input.nextLine();     // Read the next line of input from the file
+	String line = input.nextLine();     // Read the next line of input from the file
 
-		Scanner s2 = new Scanner(line).useDelimiter(",");     // s2 will let me break 'line' apart
+	Scanner s2 = new Scanner(line).useDelimiter(",");     // s2 will let me break 'line' apart
 
-		if  ( s2.hasNext() ) {           // check to see if there is more data on this line
-				// Yay! do something with this
-				nextEntry = s2.next();       // read in that data
-		}
-	} 
+	if  ( s2.hasNext() ) {           // check to see if there is more data on this line
+					// Yay! do something with this
+		nextEntry = s2.next();       // read in that data
+	}
+} 
+```
 
 [&laquo; Previous](index.html)   [Next &raquo;](part1.html)
