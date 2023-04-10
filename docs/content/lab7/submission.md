@@ -27,4 +27,4 @@ files when it autocompiles!)
 
 Zip the `Lab7` directory and turn it in via Blackboard.
 
-[Prev &raquo;](part3.html)
+[Prev &laquo;](part2.html)
