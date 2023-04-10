@@ -4,7 +4,6 @@
 * [Warmup](warmup.html)
 * [Part 1](part1.html)
 * [Part 2](part2.html)
-* [Part 3](part3.html)
 * Submission
 
 
@@ -27,4 +26,4 @@ files when it autocompiles!)
 
 Zip the `Lab7` directory and turn it in via Blackboard.
 
-[Prev &laquo;](part2.html)
+[&laquo; Prev](part2.html)

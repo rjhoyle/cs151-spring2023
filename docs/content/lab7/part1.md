@@ -4,7 +4,6 @@
 * [Warmup](warmup.html)
 * Part 1
 * [Part 2](part2.html)
-* [Part 3](part3.html)
 * [Submission](submission.html)
 
 
