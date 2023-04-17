@@ -64,16 +64,13 @@ You will need the following public and private methods.
   is.  Be careful to handle the case of single children
 
 `private int parent(int x)`
-: Return the index of the parent of the node at index `x`.  This should be `(x
-  - 1)/2`.
+: Return the index of the parent of the node at index `x`.  This should be `(x - 1)/2`.
 
 `private int leftChild(int x)`
-: Return the index of the left child of the node at index `x`. This should be
-  `2*x + 1`.
+: Return the index of the left child of the node at index `x`. This should be `2*x + 1`.
 
 `private int rightChild(int x)`
-: Return the index of the right child of the node at index `x`.  This should
-  be `2*x + 2`.
+: Return the index of the right child of the node at index `x`.  This should be `2*x + 2`.
 {: .implement-box}
 
 ### JUnit Tests
