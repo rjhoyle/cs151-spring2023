@@ -35,7 +35,7 @@ To insert into a heap, you will add your new value at the end of the ArrayList, 
   
 ## Part 2: Comparators
   
-In order to make these heaps work, you will need to create Comparators of various sorts. Begin by looking over the documentation for [java.util.Comparator<T>](https://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html). Pay special attention to the compare() method you are required to implement.
+In order to make these heaps work, you will need to create Comparators of various sorts. Begin by looking over the documentation for [java.util.Comparator&lt;T&gt;](https://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html). Pay special attention to the compare() method you are required to implement.
   
 Note that Java has two ways of comparing objects, Comparables and Comparators.  Objects in Java that implement the Comparable interface must include a `int compareTo(T o)` method, which returns an int indicating if the current instance is smaller, larger, or equal to *o*. Objects that implement Comparable are assumed to have a single, "natural ordering": for example, Integers sorted by magnitude, or Strings sorted by the ASCII value of their first letter.  In this case, the compareTo method is a part of the class definition of the objects being compared.
   
