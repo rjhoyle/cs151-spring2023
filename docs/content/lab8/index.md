@@ -1,6 +1,7 @@
 # Lab 8 -- Priority queues
 
 * Lab 8 Home
+* [Warmup](warmup.html)
 * [Part 1](part1.html)
 * [Part 2](part2.html)
 * [Submission](submission.html)
@@ -43,4 +44,4 @@ We are also providing you with the following test files:
 - `jobs100.txt`
 - `jobs1000.txt`
 
-[Next &raquo;](part1.html)
+[Next &raquo;](warmup.html)
