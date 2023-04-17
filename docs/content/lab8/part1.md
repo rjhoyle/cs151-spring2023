@@ -1,6 +1,7 @@
 # Lab 8 -- Priority queues
 
 * [Lab 8 Home](index.html)
+* [Warmup](warmup.html)
 * Part 1
 * [Part 2](part2.html)
 * [Submission](submission.html)

@@ -1,6 +1,7 @@
 # Lab 8 -- Priority queues
 
 * [Lab 8 Home](index.html)
+* [Warmup](warmup.html)
 * [Part 1](part1.html)
 * [Part 2](part2.html)
 * Submission
@@ -22,6 +23,8 @@ statement to your `README` file:
 Quit Eclipse, and then delete the `bin` directory.
 (If you don't quit Eclipse first, it will keep regenerating your class
 files when it autocompiles!)
+
+Please add the Warmup to the Lab9 directory and upload it via Blackboard
 
 Zip the `Lab9` directory and turn it in via Blackboard.
 

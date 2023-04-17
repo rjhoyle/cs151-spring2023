@@ -9,7 +9,7 @@
 
 ## Part 1: MyPriorityQueue
 
-In this section of the lab, you will be implementing your own version of a binary heap based Priority Queue. To begin, you should probably look over the Java documentation for a [PriorityQueue<T>](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) and for [java.util.AbstractQueue<T>](https://docs.oracle.com/javase/7/docs/api/java/util/AbstractQueue.html) which it extends.
+In this section of the lab, you will be implementing your own version of a binary heap based Priority Queue. To begin, you should probably look over the Java documentation for a [PriorityQueue&lt;T&gt;](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html) and for [java.util.AbstractQueue&lt;T&gt;](https://docs.oracle.com/javase/7/docs/api/java/util/AbstractQueue.html) which it extends.
 
 Recall from class the following facts about heaps:
   - A heap uses an array or ArrayList to represent a binary tree.
