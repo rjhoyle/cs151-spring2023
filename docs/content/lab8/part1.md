@@ -60,7 +60,7 @@ You will need the following public and private methods.
 
 `private void percolateDown(int hole)`
 : Percolate the item at position hole down through the heap by checking if
-  it’s bigger than its biggest child, and swapping the child and recursing if it
+  it’s smaller than its smallest child, and swapping the child and recursing if it
   is.  Be careful to handle the case of single children
 
 `private int parent(int x)`
